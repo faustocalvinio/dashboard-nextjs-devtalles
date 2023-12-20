@@ -1,5 +1,11 @@
 import { PokemonGrid, PokemonsResponse, SimplePokemon } from "@/pokemons";
 
+
+export const metadata = {
+  title: "SSR - Listado de Pokémons",
+  description: "Listado de Pokémons del lado del servidor",
+}
+
 const getPokemons = async (
   limit = 20,
   offset = 0
